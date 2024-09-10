@@ -1,0 +1,67 @@
+/* sec3 Our Portfolio start */
+.our-portfolio {
+    text-align: center;
+    margin: 48px 0;
+}
+.our-portfolio h2{
+    font-size:40px ;
+    font-weight: 800;
+    color: rgb(51, 51, 51);
+}
+.our-portfolio .portfolio-nav ul{
+    margin: 25px 0;
+}
+.our-portfolio .portfolio-nav ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+.our-portfolio .imgs{
+    margin: 48px 0;
+}
+.our-portfolio .imgs .img-item{
+    width: 80%;
+    margin-inline: auto;
+    position: relative;
+    padding: 10px;
+}
+.our-portfolio .imgs .img-item img{
+    width: 100%;
+    display: block;
+}
+.our-portfolio .imgs .img-item .img-cover{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition:opacity 1s ;
+}
+.our-portfolio .imgs .img-item .img-cover:hover{
+    opacity: 0.5;
+}
+.our-portfolio .img-item .img-cover i{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: rgb(255, 48, 91);
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .our-portfolio .imgs .img-item{
+        width: 50%;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .our-portfolio .imgs .img-item{
+        width: 30%;
+    }
+}

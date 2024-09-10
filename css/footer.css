@@ -1,0 +1,21 @@
+/* footer start */
+footer .footer{
+    background-color:  rgb(51, 51, 51);
+    text-align: center;
+    padding: 48px 0;
+    color: white;
+}
+
+footer .footer .social i{
+    padding:17px 8px;
+}
+footer .footer .social i:hover{
+    color:rgb(255, 48, 91) ;
+}
+
+footer .footer .copyright span{
+    color:rgb(255, 48, 91) ;
+} 
+footer .footer .copyright span:hover{
+    text-decoration: underline;
+}

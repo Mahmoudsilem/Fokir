@@ -1,0 +1,36 @@
+/* sec7 Contact Us start */
+
+.contact-us h2.source-sans-3-headings{
+    text-align: center;
+    width: 800;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+}
+.contact-us form{
+    width: 85%;
+    padding: 48px 0;
+    margin: 20px auto 48px;
+}
+.contact-us form input{
+    margin: 10px 5px;
+    padding: 10px;
+    border: rgb(204, 204, 204) 1px solid;
+    border-radius: 5px;
+}
+.contact-us form .name, .contact-us form .email{
+    /* width: 49%; */
+}
+.contact-us form .subject{
+    width: 100%;
+}
+.contact-us form textarea{
+    margin: 10px 0;
+    border: rgb(204, 204, 204) 1px solid;
+    border-radius: 5px;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+    .contact-us form input.email, .contact-us form input.name {
+        width: 48%;
+    }
+}

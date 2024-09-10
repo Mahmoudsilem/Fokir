@@ -1,0 +1,27 @@
+/* sec4 numbers start */
+.numbers{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 48px 0;
+    margin: 48px 0;  
+}
+.numbers .items .item{
+    padding: 48px 20px;
+}
+.numbers .items .item i{
+    padding: 5px 0;
+    display: block;
+    color: #ff305b;
+    font-size: 36px;
+}
+.numbers .items .item h3{
+    padding: 5px 0;
+    color: rgb(51, 51, 51);
+    font-weight: 800;
+    font-size: 26px;
+}
+.numbers .items .item h2{
+    padding: 5px 0;
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+}

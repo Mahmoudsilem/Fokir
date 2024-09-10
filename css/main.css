@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    width: 90%;
+    margin-inline: auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clr {
+    clear: both;
+}
+
+/* source-sans-3: Use a value from 200 to 900 */
+.source-sans-3-headings {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+    /* btn */
+.btn {
+    color: white;
+    padding: 10px 24px;
+    background-color: rgb(255, 48, 91);
+    border: rgb(255, 48, 91) solid 1px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.btn:hover {
+    background-color: #EC2403;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* three-lines */
+.three-lines .line-short {
+    margin-inline: auto;
+    width: 110px;
+    border-bottom: #ff305b 1px solid;
+    padding: 3px 0;
+}
+.three-lines .line-long {
+    width: 170px;
+    border-bottom: #ff305b 1px solid;
+    margin-inline: auto;
+    padding: 3px 0;
+}
+
